@@ -1,3 +1,16 @@
+# angular-tour-of-heroes
+勉強用Angularプロジェクト
+
+## ツアー・オブ・ヒーローズ アプリケーションとチュートリアル
+https://angular.jp/tutorial/tour-of-heroes
+
+## 立ち上げ
+ng serve --open
+
+## アクセス
+http://localhost:4200
+
+
 # AngularTourOfHeroes
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.0.
