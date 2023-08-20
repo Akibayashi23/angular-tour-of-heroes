@@ -1,3 +1,9 @@
 <h1>{{title}}</h1>
-<app-heroes></app-heroes>
+<nav>
+  <a routerLink="/dashboard">Dashboard</a>
+  <!-- routerLink属性は、ルーターがHeroesComponentへのルートとして一致する文字列である"/heroes"に設定されます。  -->
+  <a routerLink="/heroes">Heroes</a>
+</nav>
+<!-- <router-outlet>はルーティングされたビューをどこに表示するかをルーターに教えます。 -->
+<router-outlet></router-outlet>
 <app-messages></app-messages>
